@@ -1,0 +1,6 @@
+#To run multiqc, load python 
+module load python/2.7.13
+
+#then, run multiqc specifiying a filepath; eg to run from directory with fastqc files, simply enter
+
+multiqc .
