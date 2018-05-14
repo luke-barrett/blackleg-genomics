@@ -8,6 +8,8 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=luke.barrett@csiro.au
 
+##code from snpsaurus for downloading
+
 wget -r --no-parent --reject "index.html*" http://gc3fstorage.uoregon.edu/HV3YNBBXX/1820/
 
 
